@@ -1,0 +1,193 @@
+{
+    "dipartimento": "MATEMATICA E INFORMATICA - DMI",
+    "seggi_da_assegnare": "14",
+    "schede": {
+        "bianche": {
+            "totali": 32,
+            "seggio_n_18": 32
+        },
+        "nulle": {
+            "totali": 15,
+            "seggio_n_18": 15
+        },
+        "contestate": {
+            "totali": 0,
+            "seggio_n_18": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "DMI INSIDER",
+            "seggi": {
+                "seggi_pieni": "9",
+                "resti": "11,1",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "10"
+            },
+            "voti": {
+                "totali": 132,
+                "seggio_n_18": 132
+            }
+        },
+        {
+            "nome": "ACTEA",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "12,6",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 26,
+                "seggio_n_18": 26
+            }
+        },
+        {
+            "nome": "UNIVERSIT\u00c0 POPOLARE",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "10,6",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 24,
+                "seggio_n_18": 24
+            }
+        },
+        {
+            "nome": "LIBERTAS \u2010 LIBERI E FORTI",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "6,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 6,
+                "seggio_n_18": 6
+            }
+        },
+        {
+            "totale": 188
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "ALIPERTI VINCENZO",
+            "lista": "DMI INSIDER",
+            "voti": {
+                "totali": 13,
+                "seggio_n_18": 13
+            }
+        },
+        {
+            "nominativo": "APA MARCO",
+            "lista": "DMI INSIDER",
+            "voti": {
+                "totali": 16,
+                "seggio_n_18": 16
+            }
+        },
+        {
+            "nominativo": "BORZI' STEFANO",
+            "lista": "DMI INSIDER",
+            "voti": {
+                "totali": 60,
+                "seggio_n_18": 60
+            }
+        },
+        {
+            "nominativo": "COSTA ALBERTO",
+            "lista": "DMI INSIDER",
+            "voti": {
+                "totali": 3,
+                "seggio_n_18": 3
+            }
+        },
+        {
+            "nominativo": "PRESENTE FABRIZIO",
+            "lista": "DMI INSIDER",
+            "voti": {
+                "totali": 3,
+                "seggio_n_18": 3
+            }
+        },
+        {
+            "nominativo": "MARROCCIA MARCO",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 12,
+                "seggio_n_18": 12
+            }
+        },
+        {
+            "nominativo": "RAPISARDA SIMONE",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 6,
+                "seggio_n_18": 6
+            }
+        },
+        {
+            "nominativo": "PETRALIA LUCA",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_18": 0
+            }
+        },
+        {
+            "nominativo": "MATTIA ALESSANDRO FERDINANDO",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 11,
+                "seggio_n_18": 11
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "AMANTIA ROSARIO",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 1,
+                "seggio_n_18": 1
+            }
+        },
+        {
+            "nominativo": "LIOTTA ALESSIO ANGELO",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 3,
+                "seggio_n_18": 3
+            }
+        },
+        {
+            "nominativo": "SACCA' MAURA",
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 3,
+                "seggio_n_18": 3
+            }
+        },
+        {
+            "nominativo": "LA SPINA LUIGI",
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_18": 0
+            }
+        }
+    ],
+    "quoziente": 13.4286,
+    "votanti": {
+        "totali": 235,
+        "percentuale": 26.4,
+        "seggio_n_18": 235
+    },
+    "elettori": {
+        "totali": 890,
+        "seggio_n_18": 890
+    }
+}

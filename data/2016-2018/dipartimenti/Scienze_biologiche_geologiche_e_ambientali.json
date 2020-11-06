@@ -1,0 +1,314 @@
+{
+    "dipartimento": "SCIENZE BIOLOGICHE GEOLOGICHE E AMBIENTALI - BIOMLG",
+    "seggi_da_assegnare": "8",
+    "schede": {
+        "bianche": {
+            "totali": 44,
+            "seggio_n_19": 21,
+            "seggio_n_20": 23
+        },
+        "nulle": {
+            "totali": 36,
+            "seggio_n_19": 10,
+            "seggio_n_20": 26
+        },
+        "contestate": {
+            "totali": 0,
+            "seggio_n_19": 0,
+            "seggio_n_20": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "WE LOVE UNICT",
+            "seggi": {
+                "seggi_pieni": "2",
+                "resti": "18,8",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 132,
+                "seggio_n_19": 1,
+                "seggio_n_20": 131
+            }
+        },
+        {
+            "nome": "ACTEA",
+            "seggi": {
+                "seggi_pieni": "2",
+                "resti": "5,8",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 119,
+                "seggio_n_19": 102,
+                "seggio_n_20": 17
+            }
+        },
+        {
+            "nome": "IRIDE",
+            "seggi": {
+                "seggi_pieni": "2",
+                "resti": "1,8",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 115,
+                "seggio_n_19": 56,
+                "seggio_n_20": 59
+            }
+        },
+        {
+            "nome": "LIBERTAS \u2010 LIBERI E FORTI",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "30,4",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 87,
+                "seggio_n_19": 3,
+                "seggio_n_20": 84
+            }
+        },
+        {
+            "totale": 453
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "GIALLI CLELIA",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 107,
+                "seggio_n_19": 0,
+                "seggio_n_20": 107
+            }
+        },
+        {
+            "nominativo": "MENDOZA RUVIC ESGUERRA",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 11,
+                "seggio_n_19": 0,
+                "seggio_n_20": 11
+            }
+        },
+        {
+            "nominativo": "TREFFILETTI ALESSANDRO",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 29,
+                "seggio_n_19": 29,
+                "seggio_n_20": 0
+            }
+        },
+        {
+            "nominativo": "CAMPISI MELISSA",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 30,
+                "seggio_n_19": 28,
+                "seggio_n_20": 2
+            }
+        },
+        {
+            "nominativo": "MIRTO GIOVANNI",
+            "lista": "IRIDE",
+            "voti": {
+                "totali": 103,
+                "seggio_n_19": 55,
+                "seggio_n_20": 48
+            }
+        },
+        {
+            "nominativo": "DI VITA MARIA GIOVANNA",
+            "lista": "IRIDE",
+            "voti": {
+                "totali": 6,
+                "seggio_n_19": 0,
+                "seggio_n_20": 6
+            }
+        },
+        {
+            "nominativo": "ROTONDI SERGIO MARIA VALERIO",
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 34,
+                "seggio_n_19": 2,
+                "seggio_n_20": 32
+            }
+        },
+        {
+            "nominativo": "FERLITO MARCO MARIA",
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 47,
+                "seggio_n_19": 0,
+                "seggio_n_20": 47
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "MARCHESE MARTA MARIA",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_n_19": 0,
+                "seggio_n_20": 0
+            }
+        },
+        {
+            "nominativo": "DI GREGORIO MARIA OTTAVIA",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 1,
+                "seggio_n_19": 0,
+                "seggio_n_20": 1
+            }
+        },
+        {
+            "nominativo": "PELLIGRA LORENZO",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_n_19": 0,
+                "seggio_n_20": 0
+            }
+        },
+        {
+            "nominativo": "LA COGNATA THELMA",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_n_19": 0,
+                "seggio_n_20": 0
+            }
+        },
+        {
+            "nominativo": "GUELI ROBERTA",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_n_19": 0,
+                "seggio_n_20": 0
+            }
+        },
+        {
+            "nominativo": "STROSCIO ANTONIO",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 25,
+                "seggio_n_19": 25,
+                "seggio_n_20": 0
+            }
+        },
+        {
+            "nominativo": "LO FURNO GIUSEPPE",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 15,
+                "seggio_n_19": 15,
+                "seggio_n_20": 0
+            }
+        },
+        {
+            "nominativo": "CULTRERA FRANCESCO",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 10,
+                "seggio_n_19": 0,
+                "seggio_n_20": 10
+            }
+        },
+        {
+            "nominativo": "CALI' ELENA",
+            "lista": "IRIDE",
+            "voti": {
+                "totali": 1,
+                "seggio_n_19": 0,
+                "seggio_n_20": 1
+            }
+        },
+        {
+            "nominativo": "ABDEL HAMED RICCARDO",
+            "lista": "IRIDE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_19": 0,
+                "seggio_n_20": 0
+            }
+        },
+        {
+            "nominativo": "LICATA LUCA",
+            "lista": "IRIDE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_19": 0,
+                "seggio_n_20": 0
+            }
+        },
+        {
+            "nominativo": "RUSSO GAETANO",
+            "lista": "IRIDE",
+            "voti": {
+                "totali": 3,
+                "seggio_n_19": 0,
+                "seggio_n_20": 3
+            }
+        },
+        {
+            "nominativo": "SGARANO ANTONINO",
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_19": 0,
+                "seggio_n_20": 0
+            }
+        },
+        {
+            "nominativo": "RUSSO SIMONA GIUSEPPA",
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_19": 0,
+                "seggio_n_20": 0
+            }
+        },
+        {
+            "nominativo": "SANTONOCITO AGATA RITA",
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_19": 0,
+                "seggio_n_20": 0
+            }
+        },
+        {
+            "nominativo": "PONZO ELENA",
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 3,
+                "seggio_n_19": 0,
+                "seggio_n_20": 3
+            }
+        }
+    ],
+    "quoziente": 56.625,
+    "votanti": {
+        "totali": 533,
+        "percentuale": 32.76,
+        "seggio_n_19": 193,
+        "seggio_n_20": 340
+    },
+    "elettori": {
+        "totali": 1627,
+        "seggio_n_19": 327,
+        "seggio_n_20": 1300
+    }
+}
