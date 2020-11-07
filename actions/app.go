@@ -61,7 +61,6 @@ func App() *buffalo.App {
 		// Remove to disable this.
 		app.Use(popmw.Transaction(models.DB))
 
-		app.GET("/", HomeHandler)
 		app.Resource("/organoes", OrganoesResource{})
 	}
 
