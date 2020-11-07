@@ -49,8 +49,6 @@ func (v OrganoesResource) List(c buffalo.Context) error {
 
 	return responder.Wants("json", func(c buffalo.Context) error {
 		return c.Render(200, r.JSON(organoes))
-	}).Wants("xml", func(c buffalo.Context) error {
-		return c.Render(200, r.XML(organoes))
 	}).Respond(c)
 }
 
@@ -71,14 +69,8 @@ func (v OrganoesResource) Show(c buffalo.Context) error {
 		return c.Error(http.StatusNotFound, err)
 	}
 
-	return responder.Wants("html", func(c buffalo.Context) error {
-		c.Set("organo", organo)
-
-		return c.Render(http.StatusOK, r.HTML("/organoes/show.plush.html"))
-	}).Wants("json", func(c buffalo.Context) error {
+	return responder.Wants("json", func(c buffalo.Context) error {
 		return c.Render(200, r.JSON(organo))
-	}).Wants("xml", func(c buffalo.Context) error {
-		return c.Render(200, r.XML(organo))
 	}).Respond(c)
 }
 
@@ -108,15 +100,11 @@ func (v OrganoesResource) Create(c buffalo.Context) error {
 	if verrs.HasAny() {
 		return responder.Wants("json", func(c buffalo.Context) error {
 			return c.Render(http.StatusUnprocessableEntity, r.JSON(verrs))
-		}).Wants("xml", func(c buffalo.Context) error {
-			return c.Render(http.StatusUnprocessableEntity, r.XML(verrs))
 		}).Respond(c)
 	}
 
 	return responder.Wants("json", func(c buffalo.Context) error {
 		return c.Render(http.StatusCreated, r.JSON(organo))
-	}).Wants("xml", func(c buffalo.Context) error {
-		return c.Render(http.StatusCreated, r.XML(organo))
 	}).Respond(c)
 }
 
@@ -149,15 +137,11 @@ func (v OrganoesResource) Update(c buffalo.Context) error {
 	if verrs.HasAny() {
 		return responder.Wants("json", func(c buffalo.Context) error {
 			return c.Render(http.StatusUnprocessableEntity, r.JSON(verrs))
-		}).Wants("xml", func(c buffalo.Context) error {
-			return c.Render(http.StatusUnprocessableEntity, r.XML(verrs))
 		}).Respond(c)
 	}
 
 	return responder.Wants("json", func(c buffalo.Context) error {
 		return c.Render(http.StatusOK, r.JSON(organo))
-	}).Wants("xml", func(c buffalo.Context) error {
-		return c.Render(http.StatusOK, r.XML(organo))
 	}).Respond(c)
 }
 
@@ -184,7 +168,5 @@ func (v OrganoesResource) Destroy(c buffalo.Context) error {
 
 	return responder.Wants("json", func(c buffalo.Context) error {
 		return c.Render(http.StatusOK, r.JSON(organo))
-	}).Wants("xml", func(c buffalo.Context) error {
-		return c.Render(http.StatusOK, r.XML(organo))
 	}).Respond(c)
 }
