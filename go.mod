@@ -2,4 +2,4 @@ module unictelezioni
 
 go 1.15
 
-require github.com/gorilla/mux v1.8.0
+require github.com/gobuffalo/buffalo-pop/v2 v2.3.0 // indirect
